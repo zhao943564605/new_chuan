@@ -1,0 +1,125 @@
+@import url(m_style.css);
+.full(@w, @h, @bg) {
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+//封装弹性盒
+.box(@dir:horizontal) {
+    display: -webkit-box; //把父元素设置为弹性盒布局
+    -webkit-box-orient: @dir; //为父元素设置子元素的排列方式
+}
+.container,
+body,
+html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.container {
+    .box(vertical);
+    header {
+        .full(100%,0.88rem,none);
+        .box;
+        background: url("../img/juxin-1.png") no-repeat;
+        .left {
+            margin-left: 0.4rem;
+            line-height: 0.88rem;
+            img {
+                width: 0.35rem;
+            }
+        }
+        p {
+            margin-left: 2.65rem;
+            font-size: 0.33rem;
+            color: white;
+            line-height: 0.88rem;
+
+        }
+    }
+    section {
+        -webkit-box-flex: 1;
+        .font{
+            .full(6.7rem,0.83rem,none);
+            .box;
+            margin-left: 0.4rem;
+            margin-top: 0.72rem;
+            -webkit-box-align: center;
+            span{
+                display: block;
+                 font-size: 0.27rem;
+                 color: #999999;
+                 line-height: 0.37rem;
+                 a{
+                     color: #000000;
+                 }                 
+            }
+        }
+        .text{
+            .full(6.7rem,2.41rem,none);
+            margin-top: 1.1rem;
+            margin-left: 0.4rem;
+            .one{
+                .full(6.7rem,0.67rem,none);
+                .box;
+                border-bottom: 1px solid #e7e7e7;
+                -webkit-box-align: center;
+                span{
+                    font-size: 0.26rem;
+                    color: #999999;
+                    margin-left: 0.2rem;
+                }
+                .user{
+                    .full(5.25rem,0.62rem,none);
+                    border: none;
+                }
+            }
+            .two{
+                
+                .full(6.7rem,0.67rem,none);
+                .box;
+                margin-top: 0.22rem;
+                border-bottom: 1px solid #fabd6d;
+                -webkit-box-align: center;
+                span{
+                    font-size: 0.27rem;
+                    margin-left: 0.2rem;
+                }
+                .pass{
+                    .full(5.25rem,0.62rem,none);
+                    border: none;
+                }
+            }
+            .three{
+                .full(6.7rem,0.67rem,none);
+                .box;
+                margin-top: 0.22rem;
+                border-bottom: 1px solid #e7e7e7;
+                -webkit-box-align: center;
+                span{
+                    font-size: 0.27rem;
+                    margin-left: 0.2rem;
+                }
+                .sure_pass{
+                    .full(5.25rem,0.62rem,none);
+                    border: none;
+                }                
+            }
+        }
+        .back {
+            .full(6.71rem,0.89rem,none);
+            .box;
+            background: url(../img/yuanjuxin_1.png)no-repeat;
+            background-size: 6.71rem,0.89rem;
+            text-align: center;
+            -webkit-box-align: center;
+            -webkit-box-pack: center;
+            margin-left: 0.4rem;
+            margin-top: 2.55rem;
+            a {
+                color: white;
+                font-size: 0.29rem;
+            }
+        }
+    }
+}

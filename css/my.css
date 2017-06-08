@@ -1,0 +1,131 @@
+@import url(m_style.css);
+.container,
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.zhezhao {
+  width: 100%;
+  height: 100%;
+  background: none;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+}
+.zhezhao .tan {
+  width: 4.53rem;
+  height: 2.61rem;
+  background: #ffffff;
+  border-radius: 0.08rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -2.26rem;
+  top: 50%;
+  margin-top: -2.2rem;
+}
+.zhezhao .tan ul {
+  width: 3.52rem;
+  height: 2.61rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: center;
+  margin-left: 0.45rem;
+}
+.zhezhao .tan ul li {
+  width: 3.52rem;
+  height: 0.85rem;
+  background: none;
+  border-bottom: 1px solid #efefef;
+  line-height: 0.8rem;
+}
+.zhezhao .tan ul li a {
+  font-size: 0.27rem;
+  margin-left: 0.06rem;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container header {
+  width: 100%;
+  height: 0.88rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  background: url(../img/juxin-1.png) no-repeat;
+}
+.container header .left {
+  margin-left: 0.4rem;
+  line-height: 0.88rem;
+}
+.container header .left img {
+  width: 0.35rem;
+}
+.container header p {
+  margin-left: 2.65rem;
+  font-size: 0.33rem;
+  color: white;
+  line-height: 0.88rem;
+}
+.container section {
+  -webkit-box-flex: 1;
+  background: #f3f3f3;
+}
+.container section ul {
+  width: 100%;
+  height: 6.4rem;
+  background: #ffffff;
+}
+.container section ul li {
+  width: 100%;
+  height: 0.85rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  border-bottom: 1px solid #f3f3f3;
+}
+.container section ul li span {
+  display: block;
+  -webkit-box-flex: 1;
+  margin-left: 0.4rem;
+  font-size: 0.28rem;
+  color: #272727;
+}
+.container section ul li p {
+  margin-right: 0.41rem;
+  color: #5e5e5e;
+}
+.container section ul li p img {
+  width: 0.12rem;
+}
+.container section ul .head_one {
+  height: 1.19rem;
+}
+.container section ul .head_one img {
+  width: 0.97rem;
+}
+.container section .back {
+  width: 6.71rem;
+  height: 0.89rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  background: url(../img/yuanjuxin_1.png) no-repeat;
+  background-size: 6.71rem,0.89rem ;
+  text-align: center;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  margin-left: 0.4rem;
+  margin-top: 2.55rem;
+}
+.container section .back a {
+  color: white;
+  font-size: 0.29rem;
+}

@@ -1,0 +1,154 @@
+@import url(m_style.css);
+.container,
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.zhezhao {
+  width: 100%;
+  height: 100%;
+  background: none;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+}
+.zhezhao .tan {
+  width: 4.53rem;
+  height: 2.68rem;
+  background: #ffffff;
+  border-radius: 0.08rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -2.26rem;
+  top: 50%;
+  margin-top: -2.2rem;
+}
+.zhezhao .tan dl dt {
+  width: 4.13rem;
+  height: 1rem;
+  background: none;
+  margin-left: 0.24rem;
+  margin-top: 0.2rem;
+  font-size: 0.27rem;
+  text-align: center;
+  line-height: 0.39rem;
+  color: #616161;
+}
+.zhezhao .tan dl .text {
+  width: 4rem;
+  height: 0.5rem;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #fcc479;
+  margin-left: 0.25rem;
+  outline: none;
+}
+.zhezhao .tan dl ::-webkit-input-placeholder {
+  text-align: center;
+}
+.zhezhao .tan dl dd {
+  width: 4.53rem;
+  height: 0.8rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin-top: 0.08rem;
+}
+.zhezhao .tan dl dd a {
+  text-align: center;
+  line-height: 0.8rem;
+  display: block;
+  -webkit-box-flex: 1;
+  font-size: 0.27rem;
+  -webkit-box-pack: center;
+}
+.zhezhao .tan dl dd .sure {
+  border-right: none;
+  color: #f49a12;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container header {
+  width: 100%;
+  height: 0.88rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  background: url("../img/juxin-1.png") no-repeat;
+}
+.container header .left {
+  margin-left: 0.4rem;
+  line-height: 0.88rem;
+}
+.container header .left img {
+  width: 0.35rem;
+}
+.container header p {
+  margin-left: 2.65rem;
+  font-size: 0.33rem;
+  color: white;
+  line-height: 0.88rem;
+}
+.container section {
+  -webkit-box-flex: 1;
+  background: #f3f3f3;
+}
+.container section ul {
+  width: 100%;
+  height: 3.5rem;
+  background: #ffffff;
+  margin-top: 0.13rem;
+}
+.container section ul li {
+  width: 100%;
+  height: 0.85rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  border-bottom: 1px solid #f3f3f3;
+}
+.container section ul li span {
+  display: block;
+  -webkit-box-flex: 1;
+  margin-left: 0.4rem;
+  font-size: 0.28rem;
+  color: #272727;
+}
+.container section ul li p {
+  margin-right: 0.41rem;
+}
+.container section ul li p img {
+  width: 0.12rem;
+}
+.container section ul .fore {
+  border-bottom: none;
+}
+.container section ul .fore p {
+  color: #5e5e5e;
+}
+.container section .back {
+  width: 6.71rem;
+  height: 0.89rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  background: url(../img/yuanjuxin_1.png) no-repeat;
+  background-size: 6.71rem,0.89rem;
+  text-align: center;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  margin-left: 0.4rem;
+  margin-top: 2.55rem;
+}
+.container section .back a {
+  color: white;
+  font-size: 0.29rem;
+}
